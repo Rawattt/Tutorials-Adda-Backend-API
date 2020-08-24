@@ -15,12 +15,4 @@ npm run dev
 npm start
 ```
 
-## Database Seeder
-To seed the database with users, bootcamps, courses and reviews with data from the "_data" folder, run
-```
-#Create all the data
-node seeder -i
 
-#Destroy all the data
-node seeder -d
-```
