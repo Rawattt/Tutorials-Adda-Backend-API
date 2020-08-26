@@ -24,7 +24,7 @@ exports.protectRoutes = asyncHandler(async (req, res, next) => {
     req.user = await User.findById(decoded.id);
     next();
   } catch (error) {
-    return next(new ErrorResponse("Not authorized1", 401));
+    return next(new ErrorResponse("Not authorized", 401));
   }
 });
 
