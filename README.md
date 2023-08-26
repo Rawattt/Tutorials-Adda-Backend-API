@@ -7,11 +7,13 @@ npm install
 ```
 
 ## Run App
+### Development Mode
 ```
-#Run app in development mode
 npm run dev
+```
 
-#Run app in production mode
+### Production Mode
+```
 npm start
 ```
 
